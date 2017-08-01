@@ -1,0 +1,8 @@
+jupyterhub:
+  build: .
+  ports:
+    - 8000:8000
+  environment:
+    - SPARK_HOME=/opt/spark
+  
+
